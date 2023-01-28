@@ -80,7 +80,7 @@ class Ephoto {
 			});
 			await axios.request({
 				method: "POST",
-				url: "https://e1.yotools.net/upload",
+				url: "https://e2.yotools.net",
 				data: formUpload,
 				headers: { ...formUpload.getHeaders() }
 			}).then(async resultOne => {
